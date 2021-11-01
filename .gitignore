@@ -1,3 +1,4 @@
 /nbproject/
 /src/config/server.js
 /node_modules/
+.env
