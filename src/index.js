@@ -4,6 +4,7 @@ const Chat = require('./Chat.js')
 const commandParts = require('telegraf-command-parts');
 
 const app = new Telegraf(config.TELEGRAM_TOKEN)
+app.set('port', (process.env.PORT || 5000));
 
 var ActiveChats = [];
 
